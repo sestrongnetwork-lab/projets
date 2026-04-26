@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Testimonials</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <div class="card">
+    <img src="https://images.pexels.com/photos/16996375/pexels-photo-16996375.jpeg" alt="">
+    <div class="content">
+      <h2>FITNESS</h2>
+      <p>
+        Fitness is a healthy lifestyle th
+        
+        at combines regular physical exercise and proper nutrition. Doing activities like running, strength training, or yoga helps improve strength, boost energy, and reduce stress. Eating balanced meals and staying hydrated also support the body and improve overall well-being. The key to fitness is consistency, not just short-term motivation, because regular habits lead to long-term health benefits.
+      </p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://images.pexels.com/photos/1153372/pexels-photo-1153372.jpeg" alt="">
+   <div class="content">
+      <h2>HEALTH</h2>
+      <p>
+        Health is a state of complete physical, mental, and social well-being, not just the absence of disease. Taking care of your health means eating balanced food, exercising regularly, getting enough sleep, and managing stress. Good health helps you feel more energetic, think clearly, and enjoy daily life. It is important to build healthy habits early and stay consistent to maintain a strong and balanced body and mind.
+      </p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://images.pexels.com/photos/7242881/pexels-photo-7242881.jpeg" alt="">
+   <div class="content">
+      <h2>RUN</h2>
+      <p>
+        Running is one of the simplest and most effective exercises for improving overall fitness and health.
+        It strengthens the heart, builds endurance, helps burn calories,
+        and can boost your mood by releasing endorphins. You don’t need special equipment—just a good pair of shoes
+        and a safe place to move. Whether it’s a slow jog or a faster pace, starting gradually and staying
+        consistent is the best way to avoid injury and see progress.
+    </div>
+  </div>
+    
+
+  <div class="card">
+    <img src="https://images.pexels.com/photos/1484522/pexels-photo-1484522.jpeg" alt="">
+    <div class="content">
+      <h2>NUTRITION</h2>
+      <p>
+       Nutrition is the process of providing your body with the food and nutrients it needs to function properly. A good nutrition plan includes a balance of proteins, carbohydrates, healthy fats, vitamins, and minerals. These nutrients help your body grow, repair tissues, produce energy, and support your immune system. Eating a variety of whole foods like fruits, vegetables, grains, and lean proteins is key to staying healthy. Proper nutrition also improves concentration, energy levels, and overall well-being.
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
+<style>
+
+body {
+  background: #000;
+  font-family: Arial;
+  margin: 0;
+  color: white;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  padding: 40px;
+}
+
+.card {
+  background: #0b0b0b;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid #f7d306da;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 25px rgba(235, 219, 4, 0.705);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.content {
+  padding: 20px;
+}
+
+.title {
+  font-size: 12px;
+  color: #faf601;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.content p {
+  font-size: 14px;
+  color: #ccc;
+  line-height: 1.5;
+}
+
+.content h2 {
+  margin-top: 15px;
+  font-size: 15px;
+  color: #a5c906;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
